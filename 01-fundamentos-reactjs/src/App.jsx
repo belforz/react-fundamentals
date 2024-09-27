@@ -1,12 +1,17 @@
 import React from "react";
-
+import './styles/global.scss';
+import { RepositoryList } from "./components/RepositoryList";
+import { Counter } from "./components/Counter";
 export function App(){
-    // throw new Error('lol');
-    return(
-        
-        <div>
-            <h1>Isso é um de sei lá</h1>
-        </div>
+
+    return (
+        <>
+        <RepositoryList />
+        <Counter />
+        </>
     )
+        
+        
+    
     
 }
